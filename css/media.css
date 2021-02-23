@@ -1,0 +1,33 @@
+/*моб версия*/
+@media screen and (max-width:480px){
+    .logo{
+        display: none;
+    }
+    
+    .wrapper-body {
+    padding: 0 20% 20%; 
+    }
+
+    .photo {
+        width: 100%;
+    }
+}
+
+
+/*планшет*/
+@media screen and (max-width:980px){
+
+    .photo {
+        width: 50%;
+    }
+
+}
+
+/*десктоп*/
+@media screen and (max-width:1250px){
+
+    .photo {
+        width: 25%;
+    }
+    
+}
